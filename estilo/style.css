@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+header h1 {
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 50px;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+
+a {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    line-height: 2em;
+    font-family: 'Sriracha', cursive;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.bg {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.500);
+    display: inline-block;
+    padding: 15px;
+    text-shadow: 1px 1px 0px black;
+}
+
+#joana {
+    background-image: url(/imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 5px 6px 13px 0px rgba(0, 0, 0, 0.400);
+}
+
+#livro {
+    background-image: url(/imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 5px 6px 13px 0px rgba(0, 0, 0, 0.400);
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
